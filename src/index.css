@@ -249,3 +249,42 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .App {
+    margin: 0;
+    grid-row-gap: 0px;
+  }
+
+  .App * {
+    border: 0 !important;
+  }
+
+  .Main-header,
+  .Main-body,
+  .Section-body,
+  .MusicProjects {
+    padding: 25px;
+  }
+
+  .Main-header--name,
+  .Main-body--title,
+  .Section-header {
+    padding: 5px 25px;
+  }
+
+  .Resume {
+    padding: 0;
+    margin-top: 25px;
+    grid-row-gap: 0px;
+  }
+
+  .CodingProjects,
+  .MusicProjects {
+    grid-row-gap: 25px;
+  }
+
+  .MusicProjects-text {
+    padding: 0;
+  }
+}
