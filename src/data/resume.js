@@ -62,7 +62,7 @@ export default {
         "Hugo & Gatsby static site generators",
         "Chrome developer tools (including performance profiling)",
         "Git/GitHub source control",
-        "Jenkins/Travis Continuous Integration & Zeit now continuous deployment",
+        "Jenkins/Travis Continuous Integration & ZEIT now continuous deployment",
         "Ansible/Ansible Tower",
         "Docker administration & development environment usage",
         "Agile methodology (scrum, standups, planning, retrospectives, etc.)"

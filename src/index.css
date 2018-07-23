@@ -82,6 +82,10 @@ body {
   letter-spacing: 1.5px;
 }
 
+.Footer {
+  text-align: right;
+}
+
 .Section {
   display: grid;
   grid-template-rows: auto 1fr;
@@ -286,5 +290,95 @@ body {
 
   .MusicProjects-text {
     padding: 0;
+  }
+}
+
+.Resume-printHeader,
+.Resume-printContact {
+  display: none;
+}
+
+@media only print {
+  * {
+    visibility: hidden;
+  }
+
+  .App {
+    margin: 0;
+  }
+
+  .Resume,
+  .Resume * {
+    visibility: visible;
+  }
+
+  .Main--music {
+    display: none;
+  }
+
+  .App a {
+    text-decoration: none;
+  }
+
+  .Resume {
+    position: absolute;
+    top: 0;
+    grid-template-columns: 2fr 1.2fr;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas: "print print" "jobs schools" "jobs skills";
+    border: 0;
+    padding-bottom: 0;
+  }
+
+  .Resume-printHeader,
+  .Resume-printContact {
+    display: block;
+    padding: 25px;
+  }
+
+  .Resume-printHeader {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 6px;
+    align-self: flex-end;
+  }
+
+  .Resume-printTitle {
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+  }
+
+  .Resume-printContact {
+    font-size: 14px;
+  }
+  
+  .Resume-projects {
+    display: none;
+  }
+
+  .Section-header {
+    padding-left: 25px;
+    padding-bottom: 10px;
+    background: var(--color-bg);
+    color: var(--color-fg-1);
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .Section-body {
+    border: 0;
+    padding-top: 0;
+    align-content: flex-start;
+  }
+
+  .Section-itemHeader {
+    font-size: 14px;
+  }
+
+  .Section-body,
+  .App li {
+    font-size: 12px;
   }
 }
