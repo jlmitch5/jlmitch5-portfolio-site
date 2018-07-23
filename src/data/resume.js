@@ -16,6 +16,7 @@ export default {
                 "Worked to define, plan & estimate new features for Tower/AWX",
                 "Triaged community issues with open source AWX project (GitHub/Google groups/IRC), mentored engineers new to the UI team, and acted as a liaison between UX designer & back-end team",
                 "Contributed to patternfly-next styling framework https://github.com/patternfly/patternfly-next",
+                "Facilitated a UX research study project with the University of Michican School of Information",
                 "Designed & developed landing page for Ansible Tower documentation website",
                 "Aided in facilitating a smooth acquisition (Red Hat acquired Ansible in October 2015)"
             ]
