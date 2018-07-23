@@ -2,34 +2,34 @@ export default [
     {
         "artist_name": "midcentury modular",
         "release_name": "drones",
-        "description": "A compilation of modular synth patches I recorded in Durham & Raleigh, NC, between April 2017 - May 2018.",
+        "description": "A compilation of modular synth patches I recorded in Durham & Raleigh, NC between April 2017 - May 2018.",
         "release_date": "Will be released late September 2018."
     },
     {
         "artist_name": "midcentury modular",
         "release_name": "arps",
-        "description": "A compilation of modular synth patches I recorded Recorded in Durham & Raleigh, NC, between May 2016 - Febrary 2018.",
+        "description": "A compilation of modular synth patches I recorded Recorded in Durham & Raleigh, NC between May 2016 - Febrary 2018.",
         "release_date": "Released March 23, 2018.",
         "embed": `<iframe style="border: 0; width: 600px; height: 600px;" src="https://bandcamp.com/EmbeddedPlayer/album=4137973041/size=large/bgcol=ffffff/linkcol=333333/minimal=true/transparent=true/" seamless><a href="http://midcenturymodular.bandcamp.com/album/arps">arps by midcentury modular</a></iframe>`
     },
     {
         "artist_name": "Space Holder",
         "release_name": "Plutonic, the mixtape",
-        "description": "I recorded, mixed and \"mastered\" this EP with Space Holder in Durham, NC, Winter 2017.",
+        "description": "I recorded, mixed and \"mastered\" this EP with Space Holder in Durham, NC, in the Winter of 2017.",
         "release_date": "Released February 12, 2018.",
         "embed": `<iframe style="border: 0; width: 600px; height: 600px;" src="https://bandcamp.com/EmbeddedPlayer/album=1803134857/size=large/bgcol=ffffff/linkcol=333333/minimal=true/transparent=true/" seamless><a href="http://spaceholder.bandcamp.com/album/plutonic-the-mixtape">Plutonic, the mixtape by Space Holder</a></iframe>`
     },
     {
         "artist_name": "Less Western",
         "release_name": "Holographic Holiday III",
-        "description": "Tracks 5-8 are modular synth and computer recordings I made in Raleigh and Nags Head, NC in Summer/Fall of 2016.",
+        "description": "Tracks 5-8 are modular synth and computer recordings I made in Raleigh & Nags Head, NC in the Summer/Fall of 2016.",
         "release_date": "Released November 24, 2016",
         "embed": `<iframe style="border: 0; width: 600px; height: 600px;" src="https://bandcamp.com/EmbeddedPlayer/album=2831308671/size=large/bgcol=ffffff/linkcol=333333/minimal=true/transparent=true/" seamless><a href="http://lesswestern.bandcamp.com/album/holographic-holiday-iii">Holographic Holiday III by Less Western</a></iframe>`
     },
     {
         "artist_name": "Less Western",
         "release_name": "Holographic Holiday II",
-        "description": "I recorded the song \"g2b\" on the record, featuring vocals from Walt Lilly in the fall of 2015 in Durham, NC.",
+        "description": "I recorded the song \"g2b\" on the record, featuring vocals from Walt Lilly in Durham, NC in the fall of 2015.",
         "release_date": "Released November 26, 2015",
         "embed": `<iframe style="border: 0; width: 600px; height: 600px;" src="https://bandcamp.com/EmbeddedPlayer/album=3846044238/size=large/bgcol=ffffff/linkcol=333333/minimal=true/transparent=true/" seamless><a href="http://lesswestern.bandcamp.com/album/holographic-holiday-ii">Holographic Holiday II by Less Western</a></iframe>`
     },

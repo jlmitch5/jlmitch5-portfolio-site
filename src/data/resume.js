@@ -13,9 +13,9 @@ export default {
             "start_date": "January 2015",
             "bullet_points": [
                 "Developed & maintained Ansible Tower/AWX AngularJS codebase https://github.com/ansible/awx",
-                "Contributed to Patternfly styling framework https://github.com/patternfly/patternfly-next",
-                "Worked to define, plan & estimate new features for Tower",
-                "Triaged community issues with open source AWX project (GitHub/Google groups/IRC), mentored engineers new to the UI team, and acted as a liaison between UX designer & API (back-end) team",
+                "Worked to define, plan & estimate new features for Tower/AWX",
+                "Triaged community issues with open source AWX project (GitHub/Google groups/IRC), mentored engineers new to the UI team, and acted as a liaison between UX designer & back-end team",
+                "Contributed to patternfly-next styling framework https://github.com/patternfly/patternfly-next",
                 "Designed & developed landing page for Ansible Tower documentation website",
                 "Aided in facilitating a smooth acquisition (Red Hat acquired Ansible in October 2015)"
             ]
@@ -55,13 +55,13 @@ export default {
     "technical_experience": [
         "JavaScript (including ES2015+ & functional programming language features)",
         "React, Redux, AngularJS (1.x), Socket.io, Moment.js, Select2, D3, jQuery",
-        "Git/GitHub source control",
-        "NPM, Webpack, Grunt, Gulp Make build & package tools",
         "Jasmine & Karma Unit testing tools",
-        "HTML & CSS (Grid/Flexbox/LESS/SASS)",
+        "NPM, Webpack, Grunt, Gulp Make build & package tools",
+        "HTML/Handlebars, CSS (Grid/Flexbox/LESS/SASS)",
+        "Hugo & Gatsby static site generators",
         "Chrome developer tools (including performance profiling)",
-        "Jenkins/Travis Continuous Integration",
-        "Hugo static site generator",
+        "Git/GitHub source control",
+        "Jenkins/Travis Continuous Integration & Zeit now continuous deployment",
         "Ansible/Ansible Tower",
         "Docker administration & development environment usage",
         "Agile methodology (scrum, standups, planning, retrospectives, etc.)"

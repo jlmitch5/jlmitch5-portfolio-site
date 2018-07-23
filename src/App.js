@@ -42,7 +42,7 @@ class App extends Component {
         </div>
         <div className="Main">
           <div className="Main-header">
-            My name is John Mitchell, and I am based out of Raleigh, NC.  I am a front-end devloper passionate about UI/UX design, open source, and music technology.
+            My name is John Mitchell, and I am based out of Raleigh, NC.  I am a front-end developer passionate about UI/UX design, open source, and music technology.
             <br />
             <br />
             If you are interested in working with me or want to talk about technology, you can find me on <a>github</a> and can contact me at <a>jlmitch5dev -at- gmail -dot- com</a>.
@@ -136,13 +136,10 @@ class App extends Component {
         </div>
         <div className="Main">
           <div className="Main-header">
-            I currently make ambient synth music under the name midcentury modular.  You can find my albums on <a>bandcamp</a>, videos of patches and information about upcoming shows on <a>instagram</a>, and one-off recordings on <a>soundcloud</a>.  For booking and press inquiries for midcentury modular, please email <a>midcenturymodular -at- gmail -dot- com</a>.
+            I currently make ambient synth music under the name midcentury modular.  You can find videos of patches on <a>instagram</a> and one-off recordings on <a>soundcloud</a>.  In addition, I do recording, mixing, and "mastering", mostly for my own music and occasionally others. For booking and press inquiries for midcentury modular or to talk about recording/audio engineering, please email <a>midcenturymodular -at- gmail -dot- com</a>.
             <br />
             <br />
-            I also currently play guitar and synth with the shoegaze-y band Less Western.  You can find Less Western's music on <a>bandcamp</a> and <a>soundcloud</a>.  You can contact Kevin Sweeney about performance and press inquiries for Less Western at <a>lesswesterncoolrockband -at- gmail -dot- com</a>.
-            <br />
-            <br />
-            I do recording, mixing, and "mastering", mostly for my own music and ocassionally others.  If you are interested in talking audio engineering, feel free to email me!
+            I also currently play guitar and synth with the shoegaze-y band Less Western.  You can contact Kevin Sweeney about performance and press inquiries for Less Western at <a>lesswesterncoolrockband -at- gmail -dot- com</a>.
             <br />
             <br />
             Below are some releases I've worked on:
