@@ -59,7 +59,7 @@ class App extends Component {
             </div>
             <div className="Section Resume-printContact">
               205 W. Davie St.<br />
-              Apt. 410<br />"
+              Apt. 410<br />
               Raleigh, NC 27601<br />
               919-394-6667<br />
               jlmitch5dev@gmail.com

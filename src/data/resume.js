@@ -16,7 +16,7 @@ export default {
                 "Worked to define, plan & estimate new features for Tower/AWX",
                 "Triaged community issues with open source AWX project (GitHub/Google groups/IRC), mentored engineers new to the UI team, and acted as a liaison between UX designer & back-end team",
                 "Contributed to patternfly-next styling framework https://github.com/patternfly/patternfly-next",
-                "Facilitated a UX research study project with the University of Michican School of Information",
+                "Facilitated a UX research study project with the University of Michigan School of Information",
                 "Designed & developed landing page for Ansible Tower documentation website",
                 "Aided in facilitating a smooth acquisition (Red Hat acquired Ansible in October 2015)"
             ]
@@ -56,7 +56,7 @@ export default {
     "technical_experience": [
         "JavaScript (including ES2015+ & functional programming language features)",
         "React, Redux, AngularJS (1.x), Socket.io, Moment.js, Select2, D3, jQuery",
-        "Jasmine & Karma Unit testing tools",
+        "Jasmine, Karma & Jest unit testing tools",
         "NPM, Webpack, Grunt, Gulp Make build & package tools",
         "HTML/Handlebars, CSS (Grid/Flexbox/LESS/SASS)",
         "Hugo & Gatsby static site generators",
