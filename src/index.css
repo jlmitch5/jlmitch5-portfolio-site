@@ -22,7 +22,21 @@ body {
   text-decoration-color: #b1b1b1;
 }
 
-.App a:hover {
+.App .LinkButton {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 16px;
+  padding: 3px 10px;
+  margin-right: 3px;
+  white-space: nowrap;
+  background-color: #fff;
+  border-color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #b1b1b1;
+}
+
+.App a:hover,
+.App .LinkButton:hover {
   text-decoration-color: #000;
 }
 

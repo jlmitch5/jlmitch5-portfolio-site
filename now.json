@@ -1,5 +1,17 @@
 {
-  "env": {
-    "NODE_ENV": "production"
-  }  
+  "public": true,
+  "type": "static",
+  "build": {
+    "env": {
+      "CI": "true"
+    }
+  },
+  "static": {
+    "rewrites": [
+      {
+        "source": "nowage",
+        "destination": "/nowage/index.html"
+      }
+    ]
+  }
 }

@@ -48,7 +48,7 @@ class App extends Component {
             If you are interested in working with me or want to talk about technology, you can find me on <a target="_blank" rel="noopener noreferrer" href="https://github.com/jlmitch5">github</a> and can contact me at <a href="mailto:jlmitch5dev@gmail.com">jlmitch5dev -at- gmail -dot- com</a>.
             <br />
             <br />
-            You can find my resume below (or <a href="#" onClick={window.print}>print</a>):
+            You can find my resume below (or <button className="LinkButton" onClick={window.print}>print</button>):
           </div>
           <div className="Main-body Resume">
             <div className="Section Resume-printHeader">
