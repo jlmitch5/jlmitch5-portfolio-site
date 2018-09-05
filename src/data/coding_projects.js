@@ -9,6 +9,6 @@ export default [
             "title": "Now-Age (Redesign)",
             "description": "A revamp of Taraka Larson of Prince Rama's dissertation on music & existense, Now-Age, for a class project.  I created a mobile-friendly single-page web \"app\" with smooth scrolling navigation.",
             "date": "October 2014",
-            "link": "nowage"
+            "link": "https://nowage.now.sh/"
         }
 ];
