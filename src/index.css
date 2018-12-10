@@ -56,8 +56,9 @@ body {
 
 .Main-header {
   padding: 40px;
-  font-size: 16px;
-  letter-spacing: 1.7px;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  font-weight: 700;
   line-height: 28px;
   background-color: #000;
   color: #fff;
@@ -67,6 +68,15 @@ body {
   padding: 3px 10px;
   margin-right: 3px;
   white-space: nowrap;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.Main-header .LinkButton {
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  font-weight: 400;
+  font-size: 19px;
 }
 
 .Main-header--name {
@@ -330,8 +340,10 @@ body {
     position: absolute;
     top: 0;
     grid-template-columns: 2fr 1.2fr;
-    grid-template-rows: auto auto 1fr;
-    grid-template-areas: "print print" "jobs schools" "jobs skills";
+    grid-template-rows: auto auto auto 1fr;
+    grid-template-areas: "print print" "jobs contact" "jobs schools" "jobs skills";
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
     border: 0;
     padding-bottom: 0;
   }
@@ -339,25 +351,31 @@ body {
   .Resume-printHeader,
   .Resume-printContact {
     display: block;
-    padding: 25px;
   }
 
   .Resume-printHeader {
+    padding: 25px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 38.6px;
     letter-spacing: 6px;
-    align-self: flex-end;
+    align-self: flex-start;
+    padding-top: 20px;
+    grid-area: print;
   }
 
   .Resume-printTitle {
+    display: none;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 28px;
     letter-spacing: 3px;
-    line-height: 30px;
   }
 
   .Resume-printContact {
-    font-size: 14px;
+    grid-area: contact;
+  }
+
+  .Resume-printContact .Section-body {
+    line-height: 15px;
   }
   
   .Resume-projects {

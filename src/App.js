@@ -58,11 +58,16 @@ class App extends Component {
               </div>
             </div>
             <div className="Section Resume-printContact">
-              205 W. Davie St.<br />
-              Apt. 410<br />
-              Raleigh, NC 27601<br />
-              919-394-6667<br />
-              jlmitch5dev@gmail.com
+              <div className="Section-header">
+                Contact
+              </div>
+              <div className="Section-body">
+                205 W. Davie St.<br />
+                Apt. 410<br />
+                Raleigh, NC 27601<br />
+                919-394-6667<br />
+                jlmitch5dev@gmail.com
+              </div>
             </div>
             <div className="Section Resume-jobs">
               <div className="Section-header">
@@ -149,10 +154,10 @@ class App extends Component {
         </div>
         <div className="Main Main--music">
           <div className="Main-header">
-            I currently make ambient synth music under the name midcentury modular.  You can find videos of patches on <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/midcenturymodular">instagram</a> and one-off recordings on <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/midcentury">soundcloud</a>.  In addition, I do recording, mixing, and "mastering", mostly for my own music and occasionally others. For booking and press inquiries for midcentury modular or to talk about recording/audio engineering, please email <a href="mailto:midcenturymodular@gmail.com">midcenturymodular -at- gmail -dot- com</a>.
+            I currently make ambient synth music under the name midcentury modular.  You can find videos of patches on <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/midcenturymodular">instagram</a> and one-off recordings on <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/midcentury">soundcloud</a>.  I also currently play synth with the live, noisy improv group Ops (<a target="_blank" rel="noopener noreferrer" href="https://instagram.com/cyberjock">instagram</a>).  In addition, I do recording, mixing, and "mastering", mostly for my own music and occasionally others. For booking and press inquiries for midcentury modular/Ops, or to talk about recording/audio engineering, please email <a href="mailto:midcenturymodular@gmail.com">midcenturymodular -at- gmail -dot- com</a>.
             <br />
             <br />
-            I also currently play guitar and synth with the shoegaze-y band Less Western.  You can contact Kevin Sweeney about performance and press inquiries for Less Western at <a href="mailto:lesswesterncoolrockband@gmail.com">lesswesterncoolrockband -at- gmail -dot- com</a>.
+            I play guitar with the shoegaze-y band Less Western.  You can contact Kevin Sweeney about performance and press inquiries for Less Western at <a href="mailto:lesswesterncoolrockband@gmail.com">lesswesterncoolrockband -at- gmail -dot- com</a>.
             <br />
             <br />
             Below are some releases I've worked on:
