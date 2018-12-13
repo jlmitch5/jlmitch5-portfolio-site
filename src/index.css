@@ -14,6 +14,7 @@ body {
   max-width: 1150px;
   margin: 40px auto;
   font-family: 'Anonymous Pro', monospace;
+  line-height: 24px;
 }
 
 .App a {
@@ -47,7 +48,7 @@ body {
 
 .App li {
   font-size: 16px;
-  line-height: 150%;
+  line-height: 28px;
 }
 
 .Main {
@@ -55,10 +56,9 @@ body {
 }
 
 .Main-header {
-  padding: 40px;
-  font-size: 20px;
+  padding: 25px;
+  font-size: 16px;
   letter-spacing: 1.3px;
-  font-weight: 700;
   line-height: 28px;
   background-color: #000;
   color: #fff;
@@ -68,34 +68,32 @@ body {
   padding: 3px 10px;
   margin-right: 3px;
   white-space: nowrap;
-  font-weight: 400;
-  font-size: 19px;
 }
 
+.Main-header a,
 .Main-header .LinkButton {
-  font-size: 20px;
   letter-spacing: 1.3px;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 .Main-header--name {
   font-size: 26px;
-  padding: 5px 10px;
+  padding: 12px 25px;
   letter-spacing: 6px;
 }
 
 .Main-body {
-  padding: 39px;
-  border: 1px solid #000;
+  padding: 40px 0;
   color: #000;
   background-color: #fff;
 }
 
 .Main-body--title {
   font-size: 22px;
-  padding: 5px 10px;
+  padding: 12px 25px;
   letter-spacing: 1.5px;
+  border: 1px solid #000;
 }
 
 .Footer {
@@ -111,9 +109,8 @@ body {
 
 .Section-header {
   font-size: 18px;
-  text-transform: uppercase;
-  padding: 5px 10px;
-  letter-spacing: 6px;
+  padding: 12px 25px;
+  letter-spacing: 3px;
   background-color: #000;
   color: #fff;
 }
@@ -147,6 +144,7 @@ body {
     "jobs schools"
     "jobs skills"
     "projects projects";
+  padding-bottom: 0;
 }
 
 .Resume-jobs {
@@ -184,7 +182,11 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr;
-  grid-row-gap: 25px;
+  grid-row-gap: 40px;
+}
+
+.MusicProjects-project .Section-itemHeader {
+  font-size: 16px;
 }
 
 .MusicProjects-embed::before {
@@ -220,7 +222,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1060px) {
   .Resume {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto 1fr;
@@ -299,13 +301,24 @@ body {
     grid-row-gap: 0px;
   }
 
-  .CodingProjects,
-  .MusicProjects {
+  .CodingProjects {
     grid-row-gap: 25px;
+  }
+
+  .MusicProjects {
+    grid-row-gap: 40px;
+  }
+
+  .MusicProjects-project {
+    grid-row-gap: 15px;
   }
 
   .MusicProjects-text {
     padding: 0;
+  }
+
+  .Footer {
+    margin: 25px;
   }
 }
 
@@ -406,5 +419,6 @@ body {
   .Section-body,
   .App li {
     font-size: 12px;
+    line-height: 150%;
   }
 }
